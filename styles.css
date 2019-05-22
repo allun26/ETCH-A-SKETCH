@@ -1,0 +1,19 @@
+#div-container {
+    width: 600px;
+    height: 600px;
+    display: grid;
+    position: relative;
+    left: 50%;
+    margin: 0px 0px 0px -300px;
+}
+
+.box {
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+div.box:hover{
+    background-color: green;
+} 
