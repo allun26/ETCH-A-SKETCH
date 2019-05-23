@@ -44,7 +44,9 @@ boxes.forEach((box) => {
         e.target.setAttribute('style', `background: white; opacity: 1;`)
       } else if  (colorMode === 2){
         e.target.setAttribute('style', `background-color: ${randomColor()}; opacity: 1;`);   
-      } 
+      } else if (colorMode === 3){
+        e.target.setAttribute('style', `background: black; opacity: 1;`)
+      }
     });
 });
 
@@ -55,6 +57,8 @@ buttons.forEach((button) => {
             colorMode = 1;
         } else if (e.target.id === 'random'){
             colorMode = 2;
+        } else if (e.target.id === 'black'){
+            colorMode = 3;
         } else if (e.target.id === 'newGrid') {
             gridSize = prompt("Choose a grid size", "16")
             resetGrid();
