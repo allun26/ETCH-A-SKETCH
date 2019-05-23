@@ -3,7 +3,7 @@ const container = document.querySelector('#div-container');
 const boxes = document.querySelectorAll('#div-container');
 const buttons = document.querySelectorAll('#buttons')
 
-// variable to select color mode, 1 = black, 2 = random
+// variable to select color mode, 1 = white, 2 = random
 let colorMode = 2;
 
 //variable for the grid size, 16 is default
