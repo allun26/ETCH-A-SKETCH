@@ -9,7 +9,7 @@ body {
     position: relative;
     left: 50%;
     margin: 0px 0px 0px -300px;
-    
+    cursor: url(oth507.cur), auto;
 }
 
 .box {
