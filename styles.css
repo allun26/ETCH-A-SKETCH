@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(110deg, #001f3f 60%, #0074D9 60%);
+    
 }
 
 #div-container {
@@ -8,7 +9,7 @@ body {
     display: grid;
     position: relative;
     left: 50%;
-    margin: 0px 0px 0px -300px;
+    margin: 0px 0px 150px -300px;
     cursor: url(oth507.cur), auto;
 }
 
@@ -17,6 +18,7 @@ body {
     /*border-style: solid;
     border-width: 1px;*/
     transition: 0.3s;
+    opacity: 0.9;
 
 }
 

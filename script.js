@@ -41,9 +41,9 @@ function randomColor () {
 boxes.forEach((box) => {
   box.addEventListener('mouseover', (e) => {
       if  (colorMode === 1){
-        e.target.setAttribute('style', `background: white;`)
+        e.target.setAttribute('style', `background: white; opacity: 1;`)
       } else if  (colorMode === 2){
-        e.target.setAttribute('style', `background-color: ${randomColor()};`);   
+        e.target.setAttribute('style', `background-color: ${randomColor()}; opacity: 1;`);   
       } 
     });
 });
