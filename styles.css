@@ -3,13 +3,19 @@ body {
     
 }
 
+#wrapper {
+	position: relative;
+    left: 50%;
+	margin: 0px 0px 150px -300px;
+	width: 600px;
+}
 #div-container {
     width: 600px;
     height: 600px;
     display: grid;
-    position: relative;
+    /*position: relative;
     left: 50%;
-    margin: 0px 0px 150px -300px;
+    margin: 0px 0px 150px -300px;*/
     cursor: url(oth507.cur), auto;
 }
 
@@ -23,9 +29,9 @@ body {
 }
 
 #buttons {
-    padding: 0px 10px 0px;
+    padding: 0px;
     position: relative;
-    left: 28.2%;
+    left: 0%;
 
 }
 
